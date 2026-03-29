@@ -1,0 +1,1049 @@
+          @keyframes navBar{
+               from {margin-left: 70%}
+               to {margin-left: 0%}
+          }
+
+          @keyframes historyText{
+               from {color: #ffffff;}
+               to {color: #000000;}
+          }
+
+     html{
+          scroll-behavior: smooth;
+        }
+
+        *{ 
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        .nav{
+            width: 100%;
+            height: 90px;
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(78, 13, 8);
+            opacity: 80%;
+            border-radius: 15px;
+            font-family: sans-serif;
+            top: 0;
+            animation-name: navBar;
+            animation-duration: 3s;     
+        }
+
+        .navbar{
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 90px;
+            background-color: rgb(78, 13, 8);
+            opacity: 80%;
+            border-radius: 15px;
+            font-family: sans-serif;
+            
+        }
+
+        .ty{
+            margin-left: 1%;
+            margin-right: 1%;
+            margin-top: 35px;
+        }
+
+        .tysm{
+           
+            margin-right: 3%;
+            margin-top: 35px;
+        }
+
+
+
+        .name{
+            margin-left: 2%;
+            margin-top: 25px;
+            margin-bottom: 2px;
+            font-family: fantasy;
+            color: #ededed;
+            font-weight: lighter;
+        }
+
+        .subname{
+            margin-left: 10px;
+            margin-top: 32px;
+            margin-bottom: 2px;
+            font-family: fantasy;
+            color: #ededed;
+            font-weight: lighter;
+        }
+
+        .subnames{
+            margin-left: 10px;
+            margin-top: 32px;
+            margin-bottom: 2px;
+            font-family: fantasy;
+            color: #ededed;
+            font-weight: lighter;
+            margin-right: 15%;
+        }
+
+
+        .putor{
+            text-decoration: none;
+            color: rgb(228, 228, 228);
+            font-weight: lighter;
+            font-size: 20px;
+        }
+
+        .putor:hover{
+            color:  rgb(171, 169, 169);
+        }
+
+        .content{
+            width: 100%;
+            height: 800px;
+            background-image: url("main.jpeg");
+            background-color: rgb(255, 255, 255);
+            background-repeat:no-repeat ;
+            background-size: cover; 
+            padding-top: 20px;
+            margin-bottom: 10%;
+            background-attachment: fixed;
+
+        } 
+
+        .history{
+            justify-content: center;
+            text-align: center;
+            animation-name: historyText;
+            animation-delay: 5s;
+            animation-duration: 6s;
+        }
+
+
+        .head{
+            font-size: 70px;
+            font-family: fantasy;
+            font-weight: lighter;
+            margin-bottom: 10%;
+        }
+
+        
+
+        .i{
+            width: 800px;
+            height: 700px;
+            margin-left: 5%;
+            margin-right: 2%;
+            border-radius: 10px;
+            box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2);
+            animation-name: hisImg1;
+            animation-duration: 3s;
+        }
+
+        .holder{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10%;
+        }
+
+        .para1{
+            margin-left: 5%;
+            margin-right: 2%;
+            font-family: sans-serif;
+            font-size: 20px;
+            animation-name: historyText;
+            animation-duration: 6s;
+
+        }
+
+        .para2{
+            margin-left: 5%;
+            margin-right: 2%;
+            font-family: sans-serif;
+            font-size: 20px;
+            margin-top: 5%;
+            animation-name: historyText;
+            animation-duration: 6s;
+
+        }
+
+        .para3{
+            margin-left: 5%;
+            margin-right: 2%;
+            font-family: sans-serif;
+            font-size: 20px;
+            margin-top: 5%;
+            animation-name: historyText;
+            animation-duration: 6s;
+
+        }
+
+        .holder2{
+            margin-top: 5%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .im{
+            width: 600px;
+            height: 700px;
+            margin-left: 5%;
+            margin-right: 2%;
+            border-radius: 10px;
+            box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2)
+        }
+
+        .subholder{
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .subholder2{
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .subholder3{
+            justify-content: center;
+            text-align: center;
+            margin-top: 5%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-bottom: 10%;
+
+        }
+
+        .para4{
+            font-family: sans-serif;
+            font-weight: lighter;
+            font-size: 25PX;
+            animation-delay: 12s;
+            animation-name: historyText;
+            animation-duration: 4s;
+
+        }
+
+        .header{
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .rec{
+            font-weight: lighter;
+            font-family: fantasy;
+            font-size: 70px;
+            margin-bottom: 10%;
+            color: #ededed;
+        }
+
+
+        .recog{
+            width: 100%;
+            height: 1200px;
+            color: #ffffff;
+            background-image: linear-gradient(rgb(226, 10, 10), rgb(166, 12, 12)), url("");
+            padding-top: 10%;
+            box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2);
+        }
+
+
+
+        .para5{
+            margin-left: 5%;
+            margin-right: 5%;
+            color: #ededed;
+            font-size: 20PX;
+            font-weight: lighter;
+            font-family: sans-serif;
+            margin-bottom: 5%;
+        }
+
+        .para6{
+            margin-left: 5%;
+            margin-right: 5%;
+            color: #ededed;
+            font-size: 20PX;
+            font-weight: lighter;
+            font-family: sans-serif;
+        }
+
+        .awards{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .award{
+            font-family: fantasy;
+            font-size: 50px;
+            color: #ededed;
+            font-weight: lighter;
+            margin-top: 10%;
+            margin-bottom: 3%;
+        }
+
+        .aw1{
+            font-family: fantasy;
+            font-size: 30px;
+            color: #ededed;
+            margin-bottom: 3%;
+            font-weight: lighter;
+        }
+        
+        .aw2{
+            font-family: fantasy;
+            font-size: 25px;
+            color: #ededed;
+            margin-bottom: 3%;
+            font-weight: lighter;
+            margin-top: 3%;
+        }
+
+        .end{
+            text-align: center;
+            font-family: fantasy;
+            color: rgb(10, 10, 10);
+            margin-top: 5%;
+            font-weight: lighter;
+            font-size: 25px;
+            margin-bottom: 5%;
+        }
+
+        .signi{
+            text-align: center;
+            justify-content: center;
+        }
+
+        .sig{
+            color: rgb(10, 10, 10);
+            font-weight: lighter;
+            font-family: fantasy;
+            font-size: 70px;
+            margin-bottom: 10%;
+            margin-top: 10%;
+        }
+
+       .main1{
+            display: flex;
+            flex-direction: column;
+            padding: 10%;
+       }
+
+       .hd1{
+            color: rgb(13, 13, 13);
+            font-family: fantasy;
+            font-size: 45px;
+            margin-bottom: 5%;
+            font-weight: lighter;
+       }
+
+       .p1{
+            color: rgb(13, 13, 13) ;
+            font-family: monospace;
+            font-size: 25px;
+            font-weight: bold;
+       }
+
+       .main2{
+            display: flex;
+            flex-direction: column;
+            padding: 10%;
+            text-align: right;
+       }
+
+       .hd2{
+            color: rgb(13, 13, 13);
+            font-family: fantasy;
+            font-size: 45px;
+            margin-bottom: 5%;
+            font-weight: lighter;
+       }
+
+       .p2{
+            color: rgb(13, 13, 13) ;
+            font-family: monospace;
+            font-size: 25px;
+            font-weight: bold;
+       }
+
+       .main3{
+            display: flex;
+            flex-direction: column;
+            padding: 10%;
+            text-align: left;
+       }
+
+       .hd3{
+            color: rgb(13, 13, 13);
+            font-family: fantasy;
+            font-size: 45px;
+            margin-bottom: 5%;
+            font-weight: lighter;
+       }
+
+       .p3{
+            color: rgb(13, 13, 13) ;
+            font-family: monospace;
+            font-size: 25px;
+            font-weight: bold;
+       }
+
+       .main4{
+            display: flex;
+            flex-direction: column;
+            padding: 10%;
+            text-align: right;
+       }
+
+       .hd4{
+            color: rgb(13, 13, 13);
+            font-family: fantasy;
+            font-size: 45px;
+            margin-bottom: 5%;
+            font-weight: lighter;
+       }
+
+       .p4{
+            color: rgb(13, 13, 13) ;
+            font-family: monospace;
+            font-size: 25px;
+            font-weight: bold;
+       }
+
+       .main5{
+            display: flex;
+            flex-direction: column;
+            padding: 10%;
+            text-align: left;
+       }
+
+       .hd5{
+            color: rgb(13, 13, 13);
+            font-family: fantasy;
+            font-size: 45px;
+            margin-bottom: 5%;
+            font-weight: lighter;
+       }
+
+       .p5{
+            color: rgb(13, 13, 13) ;
+            font-family: monospace;
+            font-size: 25px;
+            font-weight: bold;
+       }
+
+       .cele{
+            color: #0c0c0c;
+            font-family: fantasy;
+            font-weight: lighter;
+            font-size: 70px;
+            margin-bottom: 10%;
+            text-align: center;
+       }
+
+       .hder{
+            text-align: center;
+       }
+
+       .part1{
+            display: flex;
+            flex-direction: column;
+            width: 85%;
+            height: 50px;
+            border-radius: 10px;
+            margin: 5%;
+            background-image: linear-gradient(rgb(226, 10, 10), rgb(166, 12, 12)), url("");
+             box-shadow: 10px 14px 5px rgb(0, 0, 0, 0.2);
+             padding: 2%;
+             text-align: center;
+             margin-left: 5%;
+             margin-right: 5%;
+             margin-bottom: 10%;
+             transition: height 4s;
+       }
+
+        .part1:hover{
+            height: 500px;
+        }
+
+       .pa1{
+            color: #ffffff;
+            font-family: monospace;
+            font-size: 20px;
+            margin-bottom: 2%;
+       }
+
+       .pa2{
+            color: #ffffff;
+            font-family: monospace;
+            font-size: 20px;
+            margin-bottom: 2%;
+       }
+
+       .pa3{
+            color: #ffffff;
+            font-family: monospace;
+            font-size: 20px;
+            margin-bottom: 2%;
+       }
+
+       .pa4{
+            color: #ffffff;
+            font-family: monospace;
+            font-size: 20px;
+            margin-bottom: 2%;
+       }
+
+       .pa5{
+            color: #ffffff;
+            font-family: monospace;
+            font-size: 20px;
+       }
+
+       .he1{
+            color: #ffffff;
+            font-size: 40px;
+            font-family: fantasy;
+            font-weight: lighter;
+            margin-bottom: 5%;
+       }
+
+       .part2{
+            display: flex;
+            flex-direction: column;
+            width: 85%;
+            height: 400px;
+            border-radius: 10px;
+            margin: 5%;
+            background-color: #faf8f8;
+             box-shadow: 10px 14px 5px rgb(0, 0, 0, 0.2);
+             padding: 2%;
+             text-align: center;
+             margin-left: 5%;
+             margin-right: 5%;
+             padding-top: 5%;
+             padding-bottom: 5%;
+             margin-bottom: 10%;
+       }
+
+       
+       .he2{
+            color: #000000;
+            font-size: 40px;
+            font-family: fantasy;
+            font-weight: lighter;
+            margin-bottom: 5%;
+       }
+            
+       .par1{
+            color: #000000;
+            font-family: monospace;
+            font-size: 20px;
+            margin-bottom: 2%;
+       }
+
+       .par2{
+            color: #000000;
+            font-family: monospace;
+            font-size: 20px;
+            margin-bottom: 2%;
+       }
+
+       .par3{
+            color: #000000;
+            font-family: monospace;
+            font-size: 20px;
+            margin-bottom: 2%;
+       }
+
+
+    .part3{
+            display: flex;
+            flex-direction: column;
+            width: 85%;
+            height: 100px;
+            border-radius: 10px;
+            margin: 5%;
+            background-image: linear-gradient(rgb(226, 10, 10), rgb(166, 12, 12)), url("");
+             box-shadow: 10px 14px 5px rgb(0, 0, 0, 0.2);
+             padding: 2%;
+             text-align: center;
+             margin-left: 5%;
+             margin-right: 5%;
+             transition: height 4s;
+       }
+
+
+       .part3:hover{
+            height: 500px;
+       }
+       .pare1{
+            color: #ffffff;
+            font-family: monospace;
+            font-size: 20px;
+            margin-bottom: 2%;
+       }
+
+       .pare2{
+            color: #ffffff;
+            font-family: monospace;
+            font-size: 20px;
+            margin-bottom: 2%;
+       }
+
+       .pare3{
+            color: #ffffff;
+            font-family: monospace;
+            font-size: 20px;
+            margin-bottom: 2%;
+       }
+
+       .he3{
+            color: #ffffff;
+            font-size: 45px;
+            font-family: fantasy;
+            font-weight: lighter;
+            margin-bottom: 5%;
+            margin-top: 5%;
+       }
+
+       .mainpart1{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 5%;
+            margin-top: 30%;
+       }
+
+       .headd1{
+            font-size: 45px;
+            font-weight: lighter;
+            color: #ededed;
+            font-family: fantasy;
+            margin-bottom: 5%;
+            margin-top: 10%;
+       }
+
+       .subtext{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+       }
+
+       .headder1{
+            font-size: 35px;
+            font-weight: lighter;
+            color: #ededed;
+            font-family: fantasy;
+            margin-bottom: 5%;
+       }
+
+       .parag1{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+       }
+
+       .parag2{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 6%;
+       }
+
+       .highlighted{
+            font-size: 23px;
+            font-weight: lighter;
+            font-family: fantasy;
+       }
+
+       .subheadd1{
+            font-weight: lighter;
+            font-family: fantasy;
+            font-size: 30px;
+            margin-bottom: 3%;
+       }
+
+       .subparag1{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+       }
+
+       .subparag2{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+       }
+
+       .subparag3{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+       }
+
+       .mainpart2{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 5%;
+       }
+
+        .headd2{
+            font-size: 45px;
+            font-weight: lighter;
+            color: #ededed;
+            font-family: fantasy;
+            margin-bottom: 5%;
+       }
+
+       .subtext2{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+            color: #ededed;
+       }
+
+       .paragr1{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+            color: #ededed;
+       }
+
+       .paragr2{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+            color: #ededed;
+       }
+
+        .mainpart3{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 5%;
+            color: #ededed;
+       }
+
+        .headd3{
+            font-size: 45px;
+            font-weight: lighter;
+            color: #ededed;
+            font-family: fantasy;
+            margin-bottom: 5%;
+       }
+
+       .subtext3{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+            color: #ededed;
+       }
+
+       .paragra1{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+            color: #ededed;
+       }
+
+       .paragra2{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+            color: #ededed;
+       }
+
+        .mainpart4{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 5%;
+            color: #ededed;
+       }
+
+        .headd4{
+            font-size: 45px;
+            font-weight: lighter;
+            color: #ededed;
+            font-family: fantasy;
+            margin-bottom: 5%;
+       }
+
+       .subtext4{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+            color: #ededed;
+       }
+
+       .paragraph1{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+            color: #ededed;
+       }
+
+       .paragraph2{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 3%;
+            color: #ededed;
+       }
+
+       .cont{
+            width: 100%;
+            background-image: linear-gradient(rgb(226, 10, 10), rgb(166, 12, 12)), url("");
+            color: #ededed;
+            margin-bottom: 10%;
+       }
+
+      .Theme{
+          display: flex;
+          flex-direction: column;
+          background-image: url("https://i.pinimg.com/1200x/76/75/13/767513831c4960a0906095d097d60265.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 2800px;
+          background-attachment: fixed;
+          text-align: center;
+          margin-bottom: 20%;
+      }
+
+      .MainHead{
+          font-size: 70px;
+          font-weight: lighter;
+          font-family: fantasy;
+          color: #ededed;
+          margin-bottom: 5%;
+          text-align: center;
+          margin-top: 5%;
+      }
+
+      .Year{
+         font-size: 50px;
+         font-weight: lighter;
+         font-family: fantasy;
+         color: #ededed;
+         margin-bottom: 5%;
+         text-align: center;
+      }
+
+      .SubHead{
+         font-size: 40px;
+         font-weight: lighter;
+         font-family: fantasy;
+         color: #ededed;
+         margin-bottom: 5%;
+         text-align: center;
+      }
+
+      .MainPart1{
+          text-align: center;
+          color: #ededed;
+          font-size: 20px;
+          font-family: monospace;
+          font-weight: bold;
+      }
+
+      .Para3{
+          margin-bottom: 3%;
+          font-size: 25px;
+          font-weight: lighter;
+          font-family: fantasy;
+          color: #ededed;
+      }
+
+      .Para{
+          margin-bottom: 3%;
+      }
+
+      .MainPart2{
+          display: flex;
+          flex-direction: column;
+          color: #ededed;
+          text-align: center;
+          justify-content: center;
+      }
+
+      .SubHead2{
+         font-size: 40px;
+         font-weight: lighter;
+         font-family: fantasy;
+         color: #ededed;
+         margin-bottom: 5%;
+         text-align: center;
+      }
+
+      .Para2{
+          font-size: 20px;
+          font-family: monospace;
+          font-weight: bold;
+          color: #ededed;
+      }
+
+      .IDIL{
+          color: #ededed;
+      }
+
+      .IDIL:hover{
+          color: #d7d6d6;
+      }
+
+      .ParaImp{
+          font-size: 30px;
+          font-weight: lighter;
+          font-family: fantasy;
+          color: #ededed;
+          margin-bottom: 5%;
+      }
+
+     .MainPart3{
+          display: flex;
+          flex-direction: column;
+          color: #ededed;
+          text-align: center;
+          justify-content: center;
+      }
+
+      .SubHead3{
+         font-size: 40px;
+         font-weight: lighter;
+         font-family: fantasy;
+         color: #ededed;
+         margin-bottom: 3%;
+         margin-top: 5%;
+         text-align: center;
+      }
+
+      .HalfHead1{
+          font-size: 30px;
+          font-weight: lighter;
+          font-family: fantasy;
+          color: #ededed;
+          margin-bottom: 3%;
+          text-align: center;
+      }
+
+      .Para3{
+          font-size: 20px;
+          font-family: monospace;
+          font-weight: bold;
+          color: #ededed;
+      }
+
+      .SubHead4{
+         font-size: 40px;
+         font-weight: lighter;
+         font-family: fantasy;
+         color: #ededed;
+         margin-bottom: 3%;
+         margin-top: 5%;
+         text-align: center;
+      }
+
+     .HalfHead2{
+          font-size: 30px;
+          font-weight: lighter;
+          font-family: fantasy;
+          color: #ededed;
+          margin-bottom: 3%;
+          text-align: center;
+      }
+
+     .Para4{
+          font-size: 20px;
+          font-family: monospace;
+          font-weight: bold;
+          color: #ededed;
+      }
+
+     .CelM{
+          color: #ededed;
+     } 
+
+     .Footer{
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          background-color: rgb(78, 13, 8);
+          opacity: 95%;
+          border-radius: 15px;
+          margin-top: 5%;
+          height: 90px;
+          text-align: left;
+          color: #ededed;
+          justify-content: center;
+          padding-left: 0%;
+     }
+
+
+     .Big{
+          margin-top: 25px;
+          margin-bottom: 2px;
+          font-family: fantasy;
+          color: #ededed;
+          font-weight: lighter;
+          font-size: 40px;
+     }
+
+     .Small{
+          margin-left: 5px;
+          margin-top: 32px;
+          margin-bottom: 2px;
+          font-family: fantasy;
+          color: #ededed;
+          font-weight: lighter;
+          margin-right: 10px;
+          font-size: 30px;
+     }
+
+     .Info{
+          font-size: 15px;
+          margin-top: 45px;
+          margin-bottom: 10px;
+          font-family: sans-serif;
+          color: #ededed;
+          margin-right: 10px;
+     }
+
+     .Info2{
+          font-size: 15px;
+          margin-top: 45px;
+          margin-bottom: 10px;
+          font-family: sans-serif;
+          color: #ededed;
+     }
+
+     .date{
+          font-size: 25px;
+          font-family: fantasy;
+          font-weight: lighter;
+          color: #ededed;
+          margin-top: 38px;
+          margin-left: 5px;
+     }
+
+     .highlight{
+          font-size: 17px;
+          font-weight: lighter;
+          font-family: fantasy;
+     }
